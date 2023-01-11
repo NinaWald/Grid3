@@ -110,11 +110,6 @@
     
   }
 
-  p {
-    font-size: 15px;
-
-  }
-
 
   .button {
     background-color:#d3f2eb;
@@ -133,7 +128,7 @@
   }
 
   .button:hover {
-    background: lightpink;
+    background: rgb(238, 218, 221);
   }
 
 
@@ -149,12 +144,33 @@
   
   img {
     border-radius: 5%;
-    width: 20%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
     
+  }
+
+  img.bukett {
+  
+    width: 90%;
+    border-radius: 2px;
+  }
+
+  img.arrangemang {
+    width: 90%;
+    border-radius: 2px;
+  }
+
+  img.coralflower {
+    width: 90%;
+    border-radius: 2px;
+  }
+
+  img.sunflower {
+    width: 90%;
+    border-radius: 2px;
   }
 
 
