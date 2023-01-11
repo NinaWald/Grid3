@@ -8,23 +8,13 @@
     font-family: Garamond;
   }
   
-  img.logo {
-    display: flex;
-    align-items: flex-start;
-    border-radius: 5px;
-    float: left;
-    margin: 0 10px;
-    width: 70px;
-    height: 70px;
-
-  }
+ 
   .header {
     overflow: hidden;
     background-color:#d3f2eb;
     padding: 5px 5px;
     border-radius: 20px;
   }
-
 
   
   .header a {
@@ -83,7 +73,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.8fr;
+    grid-template-rows: 2.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.8fr;
     grid-template-areas:
       "main"
       "content1"
@@ -111,9 +101,13 @@
     font-size: 20px;
     padding-bottom: 20px;
     
-    
-    
   }
+
+  p {
+    font-size: 15px;
+
+  }
+
 
   .button {
     background-color:#d3f2eb;
@@ -226,6 +220,17 @@
     font-family: Garamond, serif;
     padding-bottom: 50px;
     
+  }
+
+  img.logo {
+    
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+
   }
   
   a {
