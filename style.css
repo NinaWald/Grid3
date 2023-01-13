@@ -4,8 +4,9 @@
   }
   body { 
     margin: 10px;
-    
     font-family: Garamond;
+    background-color:lightpink;
+      
   }
   
   img.icon {
@@ -21,6 +22,14 @@
     background-color:#d3f2eb;
     padding: 5px 5px;
     border-radius: 20px;
+  }
+
+  h1 {
+    background-color: #d3f2eb;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
   }
 
   
@@ -70,11 +79,7 @@
     --main-padding: 20px;
   }
   
-  body {
-    font-family: garamond;
-    background-color: lightpink;
-    
-  }
+
 
   .container {
     display: grid;
@@ -110,13 +115,33 @@
     
   }
 
+  a:link {
+    text-decoration: none;
+    
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:rgb(169, 82, 156);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #61b6a2;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    
+  }
+
 
   .button {
-    background-color:#d3f2eb;
+    background-color:#e3bfda;
     color: black;
-    border-radius: 10;
-    border: rgb(163, 203, 207) solid 2px;
-    padding: 10px 14px;
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -128,7 +153,7 @@
   }
 
   .button:hover {
-    background: rgb(238, 218, 221);
+    background: rgb(160, 237, 246);
   }
 
 
@@ -153,7 +178,6 @@
   }
 
   img.bukett {
-  
     width: 90%;
     border-radius: 2px;
   }
@@ -265,15 +289,6 @@
     margin: 1rem;
   }
   
- 
-  @media only screen and (max-width: 660px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-
-
-
 
   @media only screen and (min-width: 661px) and (max-width: 1020px)  {
     .container {
@@ -306,7 +321,7 @@
     
     }
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 660px) {
         .header a {
           float: inline-start;
           display: block;
@@ -315,5 +330,8 @@
         
         .header-right {
           float: right;
+        }
+        body {
+          background-color: lightblue;
         }
       }
