@@ -113,15 +113,12 @@
   .main .content {
     position: absolute;
     bottom: 0;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(229, 215, 215, 0.5); /* Black background with 0.5 opacity */
+    background: rgb(0, 0, 0); 
+    background: rgba(229, 215, 215, 0.5); 
     color: #585252;
     width: 100%;
     padding: 20px;
   }
-
-
-
 
   p {
     font-size: 25px;
@@ -264,7 +261,7 @@
 
   
   footer {
-    background: rgb(197, 197, 168);
+    background: rgb(175, 189, 192);
     grid-area: footer;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
