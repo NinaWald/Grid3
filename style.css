@@ -136,7 +136,7 @@
   }
 
 
-  .button {
+  a.button {
     background-color:#e3bfda;
     color: black;
     border-radius: 20px;
@@ -177,22 +177,7 @@
     
   }
 
-  img.bukett {
-    width: 90%;
-    border-radius: 2px;
-  }
-
-  img.arrangemang {
-    width: 90%;
-    border-radius: 2px;
-  }
-
-  img.coralflower {
-    width: 90%;
-    border-radius: 2px;
-  }
-
-  img.sunflower {
+  img.bouquet, img.sunflower, img.coralflower, img.arrangemang {
     width: 90%;
     border-radius: 2px;
   }
