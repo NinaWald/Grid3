@@ -5,7 +5,7 @@
   body { 
     margin: 10px;
     font-family: Garamond;
-    background-color:lightpink;
+    background-color:lightblue;
       
   }
   
@@ -74,7 +74,7 @@
 
 :root {
     --main-radius: 10px;
-    --main-padding: 20px;
+    --main-padding: 10px;
   }
   
 
@@ -95,7 +95,7 @@
       "content7"
       "content8"
       "footer";
-    grid-gap: 0.7rem;
+    grid-gap: 0.9rem;
     font-weight: 800;
     font-size: 18px;
     color: #004d40;
@@ -195,6 +195,7 @@
   img.arrangemang, img.rose, img.daisy, img.blue, img.pink {
     width: 60%;
     border-radius: 2px;
+
   }
 
   img.start {
@@ -271,7 +272,7 @@
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
     font-family: Garamond, serif;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     
   }
 
@@ -337,7 +338,5 @@
         .header-right {
           float: right;
         }
-        body {
-          background-color: lightblue;
-        }
+        
       }
