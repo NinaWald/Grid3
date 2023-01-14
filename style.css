@@ -5,7 +5,7 @@
   body { 
     margin: 10px;
     font-family: Garamond;
-    background-color:lightblue;
+    background-color:lightpink;
       
   }
   
@@ -310,6 +310,8 @@
         "content7 content8"
         "footer footer"
      }
+
+     
      
     }
 
@@ -328,15 +330,4 @@
     
     }
 
-    @media screen and (max-width: 660px) {
-        .header a {
-          float: inline-start;
-          display: block;
-          
-        }
-        
-        .header-right {
-          float: right;
-        }
-        
-      }
+      
